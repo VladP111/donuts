@@ -1,29 +1,74 @@
-!DOCTYPE html>
-<html lang='uk'>
+<!DOCTYPE html>
+<html lang="uk">
 <head>
-    <meta charset='UTF-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Магазин пончиків</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #fff0f5;
+            color: #5a3e36;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            background-color: #ff66b2;
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .donut-img {
+            width: 250px;
+            height: auto;
+            margin: 20px 0;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+        .link-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: blue;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .link-button:hover {
+            background-color: darkblue;
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 16px;
+            color: #777;
+        }
+    </style>
 </head>
-<h1 style="background-color: pink">Світ пончиків</h1>
-    <img class="Пончик"
-    src="/uploads/2023/02/donut.png" style="  width: 244px; height: 214px;
-">
-    <p style="color: brown">Найкращі пончики во вьсому інтернеті 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec rutrum nisl. Nam ex erat, gravida et auctor et, faucibus ac lacus. Suspendisse nunc sapien, semper a nibh non, scelerisque vestibulum leo. Nulla ultricies congue felis, id suscipit dui finibus nec. Ut semper ante ipsum, ut malesuada erat molestie id. Praesent scelerisque sollicitudin vestibulum. Nam maximus diam ut tincidunt ullamcorper. Aliquam erat volutpat. Maecenas in gravida erat. Nunc nec vulputate metus. Mauris lacinia, turpis vitae ullamcorper fringilla, tortor lorem lacinia sapien, vitae pharetra ipsum purus sit amet nibh. Sed eu massa consequat, faucibus elit sed, tristique tellus. Praesent pharetra metus sapien, in interdum metus eleifend eget.
-
-In a sem at sem scelerisque molestie. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum lacus lorem, ornare in porttitor id, accumsan varius justo. Proin vel venenatis eros, sit amet tristique libero. Fusce blandit justo sed euismod tempus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. Nullam nulla ex, egestas sit amet diam vel, ultricies egestas arcu. Morbi nec orci sed erat ullamcorper rhoncus sit amet vitae nisl. Nunc in mauris ut metus vehicula gravida ut eget ipsum. Pellentesque dictum tellus id erat tincidunt, aliquet vehicula lorem faucibus. Donec ultricies accumsan est sit amet volutpat. Vestibulum risus felis, dictum sed ultricies eu, blandit nec nisl. Cras sed pulvinar nunc, vel aliquam orci. In hac habitasse platea dictumst.
-    </p>
-    <a href="https://logikaschool.com/" style="border: 5px solid blue">Посилання на сайт спонсорів</a>
-   <style>
-    .logo {
-    width: 47px;
-    height: 46px;
-}
-</style>
 <body>
-    <p> 14 лютого </p>
-<p>День Святого Валентайна</p>
+    <div class="container">
+        <h1>Світ пончиків</h1>
+        <img class="donut-img" src="/uploads/2023/02/donut.png" alt="Пончик">
+        <p>Найкращі пончики в усьому інтернеті! <br> 
+        Спробуйте наші свіжі та смачні пончики – вони тануть у роті!</p>
+        <a href="https://logikaschool.com/" class="link-button">Перейти на сайт спонсорів</a>
+        <div class="footer">
+            <p>14 лютого – День Святого Валентина!</p>
+        </div>
+    </div>
 </body>
 </html>
